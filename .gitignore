@@ -34,7 +34,7 @@ bld/
 # NUNIT
 *.VisualState.xml
 TestResult.xml
-
+#
 # Build Results of an ATL Project
 [Dd]ebugPS/
 [Rr]eleasePS/
@@ -195,18 +195,18 @@ ClientBin/
 node_modules/
 orleans.codegen.cs
 
-# Since there are multiple workflows, uncomment next line to ignore bower_components
-# (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
+## Since there are multiple workflows, uncomment next line to ignore bower_components
+## (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
 #bower_components/
 
-# RIA/Silverlight projects
+## RIA/Silverlight projects
 Generated_Code/
 
-# Backup & report files from converting an old project file
-# to a newer Visual Studio version. Backup files are not needed,
-# because we have git ;-)
+## Backup & report files from converting an old project file
+## to a newer Visual Studio version. Backup files are not needed,
+## because we have git ;-)
 _UpgradeReport_Files/
-Backup*/
+#Backup*/			# disabled because this project begins with the word backup.
 UpgradeLog*.XML
 UpgradeLog*.htm
 
